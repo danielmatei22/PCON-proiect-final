@@ -1,11 +1,11 @@
-# (Titlul)
-(Scurtă descriere)
+# Randomized Interactive Progression Engine
+Proiectul simuleaza progresii automate de acorduri, in urma unui acord initial. Este la latitudinea userului sa seteze un genre si un tempo, urmat de posibilitatea de a canta peste melodia creata random.
 
-## (Instalare)
-...
+## Instalare
+Pentru ca proiectul sa mearga, este nevoie doar ca patch-ul principal, codurile in javascript si alte notepaduri anexe sa fie in acelasi folder. Se deschide patch-ul, in modul de prezentare si user-ul este gata de "joaca".
 
-## (Utilizare)
-...
+## Utilizare
+Pentru a folosi RIPE, se alege un genre, apoi se seteaza un tempo, iar apoi se canta un acord de la tastatura. Acordurile sunt cantate la tastatura, alese cat sa corespunda pozitiilor notelor de la pian. Acestea trebuie cantate simultan pentru a compune acordul de inceput, pe baza caruia se realizeaza progresia automata si randomizata. Genre ul si Tempo ul se poate schimba cand se da reset la play. Este important de mentionat ca genurile muzicale vin cu propriile caracteristici ale acordurilor, si progresii specifice.
 
 ## (Istoric)
 
