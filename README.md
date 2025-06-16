@@ -5,18 +5,21 @@ Proiectul simuleaza progresii automate de acorduri, in urma unui acord initial. 
 Pentru ca proiectul sa mearga, este nevoie doar ca patch-ul principal, codurile in javascript si alte notepaduri anexe sa fie in acelasi folder. Se deschide patch-ul, in modul de prezentare si user-ul este gata de "joaca".
 
 ## Utilizare
-Pentru a folosi RIPE, se alege un genre, apoi se seteaza un tempo, iar apoi se canta un acord de la tastatura. Acordurile sunt cantate la tastatura, alese cat sa corespunda pozitiilor notelor de la pian. Acestea trebuie cantate simultan pentru a compune acordul de inceput, pe baza caruia se realizeaza progresia automata si randomizata. Genre ul si Tempo ul se poate schimba cand se da reset la play. Este important de mentionat ca genurile muzicale vin cu propriile caracteristici ale acordurilor, si progresii specifice.
+Pentru a folosi RIPE, se alege un genre, apoi se seteaza un tempo, iar apoi se canta un acord de la tastatura. Acordurile sunt cantate la tastatura, alese cat sa corespunda pozitiilor notelor de la pian. Acestea trebuie cantate simultan pentru a compune acordul de inceput, pe baza caruia se realizeaza progresia automata si randomizata. In cazul in care se tasteaza un alt acord, modelul o ia de la inceput cu progresia nou generata. Genre ul si Tempo ul se pot schimba cand se da reset la play. Este important de mentionat ca genurile muzicale vin cu propriile caracteristici ale acordurilor, si progresii specifice, deci trebuie verificata baza de date din cadrul codului pentru a vedea ce acorduri sunt disponibile pentru progresie.
 
 ## (Istoric)
 
-(13.05) ...
+12.04 - research pentru detection si creare schematic pentru identificarea acordurilor
 
-(3.06) ...
+13.04 - lucrat la functionalitatea codurilor pt markov chains
 
-(X.06) ...
+17.05 - verificarea functinoalitatii a intregului proiect si remediere edge cases 
+
+18.05 - design proiect si rafinare detalii
 
 ## (Link-uri)
-...
+
+https://www.youtube.com/watch?v=69ysOLe60Yc&t=2s&ab_channel=HearingGlass%7CUmutEldem
 
 # Dezvoltarea proiectului
 
